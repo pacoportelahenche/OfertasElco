@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" resourceKey="Form.background"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jCheckBox4" alignment="0" max="32767" attributes="1"/>
+                      <Component id="jCheckBox2" alignment="0" max="32767" attributes="1"/>
+                      <Component id="jCheckBox1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel1" alignment="0" max="32767" attributes="1"/>
+                      <Component id="jCheckBox3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="0" max="32767" attributes="1"/>
+                      <Component id="jLabel3" alignment="0" max="32767" attributes="1"/>
+                      <Component id="jCheckBox5" alignment="0" max="32767" attributes="1"/>
+                  </Group>
+                  <Component id="jCheckBox6" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox7" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox8" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="jLabel4" alignment="0" max="32767" attributes="1"/>
+                      <Component id="jCheckBox9" alignment="0" max="32767" attributes="1"/>
+                  </Group>
+                  <Component id="jCheckBox11" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox10" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jCheckBox20" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jCheckBox13" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCheckBox12" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="jLabel5" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="jLabel6" alignment="0" max="32767" attributes="1"/>
+                              </Group>
+                              <Component id="jCheckBox16" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCheckBox17" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCheckBox15" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCheckBox14" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCheckBox21" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCheckBox34" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jCheckBox19" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="jLabel7" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="jCheckBox18" alignment="0" max="32767" attributes="1"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="87" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jLabel8" max="32767" attributes="1"/>
+                                  <Component id="jCheckBox22" alignment="0" max="32767" attributes="1"/>
+                              </Group>
+                              <Component id="jCheckBox23" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCheckBox24" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCheckBox25" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCheckBox26" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCheckBox27" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCheckBox28" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCheckBox29" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCheckBox30" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCheckBox31" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCheckBox32" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jCheckBox33" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jCheckBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox12" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox22" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jCheckBox2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox13" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox23" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox24" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jCheckBox3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox14" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox25" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jCheckBox4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox15" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox26" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jCheckBox5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox16" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox27" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox17" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox28" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jCheckBox6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox18" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox29" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jCheckBox7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox30" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox34" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jCheckBox8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox31" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jCheckBox9" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox32" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox19" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox21" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jCheckBox10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox20" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jCheckBox11" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox33" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="32" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jLabel1.font"/>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel1.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox1">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox1.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox1.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox1" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox2">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox2.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox2.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox2" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jLabel2.font"/>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel2.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel2" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox3">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox3.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox3.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox3" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox4">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox4.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox4.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox4" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox5">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox5.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox5.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox5" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jLabel3.font"/>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel3.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel3" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox6">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox6.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox6.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox6" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox7">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox7.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox7.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox7" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox8">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox8.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox8.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox8" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox9">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox9.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox9.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox9" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jLabel4.font"/>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel4.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel4" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox10">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox10.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox10.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox10" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox11">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox11.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox11.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox11" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jLabel5.font"/>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel5.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel5" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox12">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox12.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox12.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox12" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox13">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox13.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox13.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox13" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jLabel6.font"/>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel6.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel6" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox14">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox14.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox14.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox14" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox15">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox15.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox15.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox15" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox16">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox16.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox16.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox16" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox17">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox17.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox17.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox17" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox18">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox18.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox18.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox18" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jLabel7.font"/>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel7.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel7" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox19">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox19.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox19.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox19" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox20">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox20.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox20.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox20" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox21">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox21.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox21.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox21" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jLabel8.font"/>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel8.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel8" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox22">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox22.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox22.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox22" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox23">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox23.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox23.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox23" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox24">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox24.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox24.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox24" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox25">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox25.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox25.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox25" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox26">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox26.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox26.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox26" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox27">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox27.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox27.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox27" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox28">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox28.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox28.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox28" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox29">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox29.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox29.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox29" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox30">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox30.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox30.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox30" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox31">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox31.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox31.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox31" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox32">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox32.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox32.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox32" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox33">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox33.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox33.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox33" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox34">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="jCheckBox34.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="jCheckBox34.text"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox34" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
