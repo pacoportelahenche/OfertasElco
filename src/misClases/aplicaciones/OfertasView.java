@@ -183,6 +183,9 @@ public class OfertasView extends FrameView implements Printable {
      */
     private int cargarIndice(File fichero) {
         Document doc = cargarDocumentoXML(fichero);
+        if(doc == null){
+            return 0;
+        }
         Element raiz = doc.getRootElement();
         Element indice = raiz.getChild("Indice");
         int ind = Integer.parseInt(indice.getText());
@@ -198,10 +201,25 @@ public class OfertasView extends FrameView implements Printable {
     private void cargarFechas(File fichero, int indice) {
         this.listadoFechas.clear();
         Document doc = cargarDocumentoXML(fichero);
-        Element raiz = doc.getRootElement();
-        List<Element> listaFechas = raiz.getChildren();
-        for (Element fecha : listaFechas) {
-            this.listadoFechas.add(fecha.getText());
+        /* Si el documento no existe significa que no hay ficheros de
+        datos, por lo que probablemente estemos empezando un año nuevo.
+        Lo que hacemos es poner el índice a cero y poner una fecha 
+        genérica que luego podremos cambiar. Al finalizar grabamos el
+        índice y la fecha que acabamos de crear.
+        */
+        if(doc == null){
+            this.listadoFechas.add("01Enero-31Enero");
+            this.grabarIndice();
+            this.grabarFechas();
+            this.fechaOfertaActual = this.listadoFechas.get(indice);
+            this.botonGuardar.doClick();
+        }
+        else{
+            Element raiz = doc.getRootElement();
+            List<Element> listaFechas = raiz.getChildren();
+            for (Element fecha : listaFechas) {
+                this.listadoFechas.add(fecha.getText());
+            }
         }
         this.actualizarComboFechas();
         this.comboFechas.setSelectedIndex(indice);
@@ -1793,7 +1811,9 @@ public class OfertasView extends FrameView implements Printable {
         Element raiz = new Element("Indices");
         doc.addContent(raiz);
         Element indice = new Element("Indice");
-        indice.setText(Integer.toString(this.comboFechas.getSelectedIndex()));
+        int index = this.comboFechas.getSelectedIndex();
+        if(index == -1) index = 0;
+        indice.setText(Integer.toString(index));
         raiz.addContent(indice);
         String docString;
         docString = xmlOutputter.outputString(doc);
@@ -1872,10 +1892,10 @@ public class OfertasView extends FrameView implements Printable {
     }
     
     private void grabarCopiaOferta(String docString){
-        File ficheroCopia = new File("C:/Documents and Settings/usuario3"
-                + "/Mis documentos/datosOfertaActual/copiaOfertaActual.xml");
+        File ficheroCopia = new File("C:\\Users\\usuario\\Documents\\"
+                + "copiaOfertaActual.xml");
         IOFichero.stringAFichero
-            (docString, ficheroCopia, Charset.forName("UTF-16"));
+            (docString, ficheroCopia, Charset.forName("UTF-16"));   
     }
 
     /**
@@ -1911,6 +1931,7 @@ public class OfertasView extends FrameView implements Printable {
                 fichero.renameTo(new File
                     ("datos/ofertas" + nuevoIntervalo + year + ".xml"));
                 int indice = this.comboFechas.getSelectedIndex();
+                if(indice == -1) indice = 0;
                 this.listadoFechas.set(indice, nuevoIntervalo);
                 this.comboFechas.setSelectedItem(nuevoIntervalo);
                 this.grabarFechas();
