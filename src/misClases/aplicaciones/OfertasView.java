@@ -38,10 +38,15 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.GregorianCalendar;
 import java.util.Calendar;
+import java.util.Collection;
+import java.util.Iterator;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.print.attribute.HashPrintRequestAttributeSet;
 import javax.print.attribute.PrintRequestAttributeSet;
 import javax.swing.JCheckBox;
+import javax.swing.JMenuItem;
 import org.jdesktop.application.Action;
 import misClases.aplicaciones.resources.ArticuloOferta;
 import org.jdom2.Document;
@@ -50,6 +55,8 @@ import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
 import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.filefilter.TrueFileFilter;
 
 /**
  * Esta aplicación nos permite gestionar ofertas.
@@ -159,6 +166,88 @@ public class OfertasView extends FrameView implements Printable {
                 = String.valueOf(new GregorianCalendar().get(Calendar.YEAR));
         OfertasView.anhoEnUso = OfertasView.anhoActual;
         this.cambiarEtiquetaAnho();
+        anadirMenuItemNuevoAnho();
+    }
+    
+    /**
+     * Método que añade un menuItem nuevo al menú Utilidades. Nos permitirá
+     * preparar el programa cuando cambia el año.
+     */
+    private void anadirMenuItemNuevoAnho(){
+        JMenuItem nuevoAnhoMenuItem = new JMenuItem("Preparar nuevo año");
+        nuevoAnhoMenuItem.addActionListener(new ActionListener(){
+            @Override
+            public void actionPerformed(ActionEvent ae) {
+                try {
+                    iniciarAnho();
+                } catch (IOException ex) {
+                    Logger.getLogger(OfertasView.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+        });
+        this.utilMenu.add(nuevoAnhoMenuItem);
+    }
+    
+    /**
+     * Método que iniciará un nuevo año. Creará un directorio nuevo dentro del
+     * directorio 'datos' que tendrá el nombre del año anterior (en número, por
+     * ejemplo 2018). Después moveremos todos los archivos que contenga el 
+     * directorio 'datos' (excepto los directorios) al directorio que acabamos
+     * de crear. De esta forma el directorio 'datos' quedará vacío y el programa
+     * creará los archivos que utilizaremos el nuevo año.
+     */
+    private void iniciarAnho() throws IOException{
+        // pedimos confirmación del usuario
+        int op = JOptionPane.showConfirmDialog(this.getFrame(),
+                    "¿Desea preparar el programa para el nuevo año?",
+                    "Confirmar nuevo año",
+                    JOptionPane.YES_NO_OPTION);
+        if(op == JOptionPane.YES_OPTION){
+            // obtenemos el año en curso
+            int anho = new GregorianCalendar().get(Calendar.YEAR);
+            // le restamos uno
+            anho--;
+            // creamos el directorio con el nombre del año
+            File dir = new File("datos/" + String.valueOf(anho));
+            if(!dir.exists()){
+                dir.mkdirs();
+            }
+            else{
+                mensaje("El directorio " + String.valueOf(anho) + " ya existe"
+                , "Información");
+                return;
+            }
+        
+            /* Utilizamos las clases commons utils de apache para obtener y mover
+            los ficheros. Los obtenemos en una collection e iteramos sobre ellos
+            para moverlos al directorio que hemos creado previamente.
+            */
+            Collection<File> set = FileUtils.listFiles(new File("datos"),
+                TrueFileFilter.INSTANCE, null);
+        
+            Iterator<File> it = set.iterator();
+            while(it.hasNext()){
+                FileUtils.moveFileToDirectory(it.next(), dir, false);
+            }
+        
+            this.comprobarFicherosDatos();
+            // seleccionamos el índice nº 0 en el combo fechas porque si no graba
+            // el último índice que había usado el año anterior y provoca un error
+            // la próxima vez que arrancamos el programa.
+            this.comboFechas.setSelectedIndex(0);
+            this.cargarDatos();
+        }
+    }
+    
+    /**
+     * Método utilizado para mostrar un mensaje en pantalla al usuario.
+     * @param textoMensaje el texto que mostrará el mensaje.
+     * @param textoTitulo el texto del título del mensaje.
+     */
+    private void mensaje(String textoMensaje, String textoTitulo){
+        JOptionPane.showMessageDialog(this.getFrame(),
+                    textoMensaje, textoTitulo,
+                    JOptionPane.INFORMATION_MESSAGE);
     }
 
     /**
